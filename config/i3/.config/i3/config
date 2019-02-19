@@ -142,7 +142,7 @@ bindsym Print exec xfce4-screenshooter
 # Vitesse de la souris (Razer Taipan)
 # exec_always --no-startup-id ~/.config/i3/mousespeed.sh
 # Vitesse du scroll (trop lent sur la logitech G203 par défaut)
-exec_always --no-startup-id imwheel
+# exec_always --no-startup-id imwheel
 
 ###############################
 #        WORKSPACES           #
@@ -165,7 +165,7 @@ workspace $ws1 output $monitorLeft
 workspace $ws2 output $monitorLeft
 workspace $ws3 output $monitorLeft
 workspace $ws4 output $monitorLeft
-workspace $ws5 output $monitorLeft
+workspace $ws5 output $monitorRight
 workspace $ws6 output $monitorLeft
 workspace $ws7 output $monitorRight
 workspace $ws8 output $monitorRight
@@ -228,7 +228,7 @@ for_window [class="Pcmanfm|Nautilus|Thunar|Toplevel"] floating enable
 exec --no-startup-id compton
 exec --no-startup-id discord
 exec --no-startup-id spotify
-exec --no-startup-id easystroke
+#exec --no-startup-id easystroke
 exec --no-startup-id redshift -l 43.610769:3.876716 -t 6500:3500 -l manual
 # Pamac Manager a besoin de ça pour gérer l'authentification
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
