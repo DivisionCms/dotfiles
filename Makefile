@@ -20,7 +20,6 @@ i3: ## Indique à stow ou trouver les configurations du linux
 	$(stow) i3
 	$(stow) polybar
 	$(stow) compton
-	$(stow) keyboard
 	$(stow) rofi
 	$(stow) vim
 
