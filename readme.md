@@ -2,6 +2,9 @@
 
 Ce dépot permet de restaurer mon environment en cas de formatage est de me rappeler les choses à savoir concernant mon installation de Linux. 
 
+```shell
+sudo pacman -S git yay
+```
 ---
 
 ### Paquets

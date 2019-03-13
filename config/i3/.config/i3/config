@@ -157,8 +157,8 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 #set $monitorCenter DVI-I-1
-set $monitorLeft   HDMI-2
-set $monitorRight  DP-2
+set $monitorLeft   HDMI-1
+set $monitorRight  DP-1
 
 # Ecran associé à chaque Workspace
 workspace $ws1 output $monitorLeft
@@ -231,7 +231,7 @@ exec --no-startup-id spotify
 #exec --no-startup-id easystroke
 exec --no-startup-id redshift -l 43.610769:3.876716 -t 6500:3500 -l manual
 # Pamac Manager a besoin de ça pour gérer l'authentification
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Désactive capslock
 exec --no-startup-id setxkbmap -option caps:none

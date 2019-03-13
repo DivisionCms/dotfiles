@@ -14,7 +14,7 @@ spotify = ${xrdb:color10}
 power= ${colors.urgent}
 
 [bar/default]
-monitor = HDMI-2
+monitor = HDMI-1
 height = 32
 offset-y = 0
 top = true
@@ -40,14 +40,14 @@ modules-right = cpu memory spotify volume date powermenu
 
 [bar/left]
 inherit = bar/default
-monitor = HDMI-2
+monitor = HDMI-1
 modules-left = i3
 modules-center = xwindow
 modules-right = cpu memory
 
 [bar/right]
 inherit = bar/default
-monitor = DP-2
+monitor = DP-1
 modules-left = i3
 modules-right = spotify volume date powermenu
 
